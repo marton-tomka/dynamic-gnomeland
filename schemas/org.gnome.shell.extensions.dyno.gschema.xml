@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.dyno" path="/org/gnome/shell/extensions/dyno/">
+    <key name="dark-panel-icons" type="b">
+      <default>false</default>
+      <summary>Dark panel icons</summary>
+      <description>Use dark icons and text on the right side of the panel for light backgrounds.</description>
+    </key>
+  </schema>
+</schemalist>

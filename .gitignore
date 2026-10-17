@@ -1,0 +1,15 @@
+# Local builds and generated files
+/dist/
+/schemas/gschemas.compiled
+__pycache__/
+*.py[cod]
+
+# Machine-specific installation state and local verification output
+/.install-state.json
+/verification/
+*.log
+
+# Original recordings and editor files
+*.mov
+.DS_Store
+*~

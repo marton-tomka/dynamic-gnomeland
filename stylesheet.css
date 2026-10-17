@@ -1,0 +1,68 @@
+.dyno-pill { background-color: #030303; color: #fafafa; border-radius: 99px; border: 1px solid transparent; padding: 2px 9px; margin: 2px 0; transition-duration: 220ms; }
+.dyno-pill:hover, .dyno-pill:focus { background-color: #151515; }
+.dyno-pill:focus { border-color: #8b8b8b; }
+.dyno-pill-content { spacing: 6px; }
+.dyno-clock-space { min-width: 72px; }
+.dyno-clock { color: #f4f4f5; font-size: 12px; font-weight: 500; }
+.dyno-pill-status { spacing: 4px; }
+.dyno-wave { spacing: 2px; }
+.dyno-wave-bar { width: 2px; height: 13px; border-radius: 1px; background-color: #eaeaf0; }
+.dyno-unread-dot { width: 4px; height: 4px; border-radius: 99px; background-color: #f4f4f4; }
+.dyno-shell { color: #f4f4f5; font-size: 14px; }
+.dyno-background { background-color: #050505; border-radius: 24px; border: 1px solid #252525; box-shadow: 0 10px 30px 0 rgba(0,0,0,0.30); transition-duration: 220ms; }
+.dyno-pill.dyno-event-active { border-color: rgba(244,88,139,0.30); box-shadow: 0 0 6px 0 rgba(244,88,139,0.10); }
+.dyno-background.dyno-event-active { border-color: rgba(244,88,139,0.30); box-shadow: 0 0 14px 0 rgba(244,88,139,0.08); }
+.dyno-pill.dyno-audio-active, .dyno-background.dyno-audio-active { border-color: rgba(244,88,139,0.50); }
+.dyno-pill.dyno-capture-active { border-color: rgba(91,224,205,0.85); box-shadow: 0 0 8px 0 rgba(91,224,205,0.22); }
+.dyno-background.dyno-capture-active { border-color: rgba(91,224,205,0.75); box-shadow: 0 0 18px 0 rgba(91,224,205,0.16); }
+.dyno-content { padding: 12px 18px 14px; spacing: 12px; }
+.dyno-header { spacing: 0; }
+.dyno-header-wing { width: 82px; }
+.dyno-header-left { spacing: 6px; }
+.dyno-clock-button { padding: 0 8px; border-radius: 12px; border: 2px solid transparent; }
+.dyno-clock-button:hover { background-color: #17171c; }
+.dyno-clock-button:focus { background-color: #25252d; border-color: #9ca1b0; }
+.dyno-button { width: 32px; height: 32px; padding: 0; border: 2px solid transparent; border-radius: 99px; color: #bcbcc2; background-color: transparent; transition-duration: 100ms; }
+.dyno-button:hover { background-color: #242426; color: #ffffff; }
+.dyno-button:focus { background-color: #30303a; color: #ffffff; border-color: #aeb5c8; box-shadow: none; }
+.dyno-button:active { background-color: #3a3a40; }
+.dyno-button:checked { background-color: #f0f0f2; color: #121214; }
+.dyno-has-unread { color: #ffffff; background-color: #1e1e22; }
+.dyno-home { spacing: 13px; }
+.dyno-media { padding: 8px 4px 4px; spacing: 10px; }
+.dyno-media-info { spacing: 16px; }
+.dyno-art { background-color: #151517; border-radius: 10px; width: 128px; height: 72px; color: #b8b8bf; }
+.dyno-track { spacing: 5px; }
+.dyno-eyebrow { color: #a0a0a8; font-size: 10px; font-weight: 600; letter-spacing: 1.3px; }
+.dyno-track-title { color: #ffffff; font-size: 19px; font-weight: 600; }
+.dyno-muted { color: #a8a8b0; font-size: 12px; }
+.dyno-playback { spacing: 8px; }
+.dyno-play { width: 40px; height: 40px; background-color: #ededf0; color: #111113; }
+.dyno-play:hover { background-color: #ffffff; color: #111113; }
+.dyno-play:focus { background-color: #dbe0f4; color: #111113; border-color: #9faac8; box-shadow: none; }
+.dyno-player-name { color: #92929c; font-size: 11px; padding-right: 3px; }
+.dyno-search { border-radius: 14px; background-color: #19191c; border: 1px solid #303035; color: #f7f7fa; padding: 12px 14px; selection-background-color: #545464; selected-color: #ffffff; }
+.dyno-search:focus { border-color: #676773; box-shadow: none; }
+.dyno-search StIcon { color: #a0a0aa; icon-size: 17px; }
+.dyno-search .hint-text { color: #95959f; }
+.dyno-result { padding: 8px 10px; border-radius: 11px; border: 1px solid transparent; text-align: left; color: #eaeaf0; }
+.dyno-result:default { background-color: #161619; }
+.dyno-result:hover { background-color: #25252a; }
+.dyno-result:focus { background-color: #2b2b32; border-color: #858592; }
+.dyno-result-content { spacing: 12px; }
+.dyno-result-title { font-size: 13px; }
+.dyno-result-detail { color: #92929e; font-size: 11px; }
+.dyno-search-status { padding: 8px 10px; }
+.dyno-footer { color: #92929d; font-size: 11px; padding: 2px 4px 0; spacing: 12px; }
+.dyno-native { padding: 0; }
+.dyno-shell .datemenu-calendar-column { padding: 0; border: 0; margin: 0; }
+.dyno-shell .calendar { margin: 0; padding: 8px 27px; background-color: #121214; border-radius: 16px; }
+.dyno-shell .calendar .calendar-day { color: #dfdfe5; }
+.dyno-shell .calendar .calendar-other-month { color: #6e6e7c; }
+.dyno-shell .calendar .calendar-today { background-color: #e9e9ef; color: #111115; }
+.dyno-shell .calendar .calendar-day:focus { box-shadow: inset 0 0 0 2px #9999aa; }
+.dyno-shell .message-list { margin: 0; padding: 0; border: 0; }
+.dyno-shell .message { background-color: #1a1a1e; color: #f0f0f3; border-radius: 14px; }
+.dyno-shell .message-list-controls { padding: 10px 0 0; }
+.dyno-banner-host .notification-banner { min-width: 0; margin: 0; background-color: transparent; border: 0; box-shadow: none; }
+.dyno-banner-host .message { background-color: transparent; }

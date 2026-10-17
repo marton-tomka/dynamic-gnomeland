@@ -1,0 +1,9 @@
+{
+  "uuid": "dyno@local",
+  "name": "Dyno",
+  "description": "A quiet, responsive island in the GNOME top bar. Media, search, notifications, and calendar share one keyboard-accessible surface.",
+  "shell-version": ["50"],
+  "version": 7,
+  "version-name": "0.5.1",
+  "settings-schema": "org.gnome.shell.extensions.dyno"
+}
