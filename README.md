@@ -12,7 +12,7 @@ A GNOME Shell extension for Wayland that blends the iPhone’s Dynamic Island wi
 
 https://github.com/user-attachments/assets/9eec6bcd-d341-4199-8013-ab0531db08b6
 
-[Watch the full demo with sound](assets/demo.mp4) · [Achieve the exact demo state](demo/stuff.md)
+[Achieve the exact demo state](demo/stuff.md)
 
 
 
